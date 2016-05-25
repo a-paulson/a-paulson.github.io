@@ -21,8 +21,6 @@
   display: none
 }
 
-/*Look into is-compact... */
-
 .portfolio-logo-row {
   min-height: 200px
 }
@@ -42,7 +40,8 @@
 .is-compact .portfolio-logo {
   height: 50px;
   width: 50px;
-  margin-top: 7px
+  margin-top: 7px;
+  display: none;
 }
 
 .portfolio-navigation-row {
@@ -84,13 +83,22 @@
   left: 15%
 }
 
+.is-compact .portfolio-navigation-row{
+  display: none;
+}
+
 .portfolio-card{
   width: calc(50% - 16px);
+  justify-content: space-between;
 }
 
 .intro-card{
   width: 100%;
   min-height: auto;
+}
+
+.intro-text{
+  font-size: 18px;
 }
 
 .portfolio-blog-card-compact .mdl-card__title,.portfolio-card .mdl-card__title {

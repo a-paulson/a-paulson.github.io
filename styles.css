@@ -92,6 +92,55 @@
   justify-content: space-between;
 }
 
+.about-card{
+  width: calc(50% - 16px);
+  justify-content: flex-start;
+}
+
+.text-line{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-line{
+  font-weight: bold;
+}
+
+.half-line-text{
+  max-width: 60%;
+}
+
+.full-line-text{
+  max-width: 100%;
+}
+
+.mdl-card__supporting-text{
+  color: rgba(0, 0, 0, .7);
+}
+
+.skill-table{
+  width: 100%;
+}
+
+.skill-table td{
+  width: 25%;
+}
+
+.link-text a{
+  color: inherit;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.link-text i{
+  margin-right: 10px;
+}
+
+.link-text a:hover{
+  color: rgb(68,138,255);
+}
+
 .intro-card{
   width: 100%;
   min-height: auto;
@@ -101,7 +150,7 @@
   font-size: 18px;
 }
 
-.portfolio-blog-card-compact .mdl-card__title,.portfolio-card .mdl-card__title {
+.portfolio-blog-card-compact .mdl-card__title,.portfolio-card .mdl-card__title, .about-card .mdl-card__title{
   padding-bottom: 0
 }
 
@@ -165,6 +214,10 @@ img.article-image {
   box-sizing: border-box;
   display: -webkit-flex;
   display: flex
+}
+
+.about-card-cell{
+  width: 100%;
 }
 
 .portfolio-contact .mdl-textfield {

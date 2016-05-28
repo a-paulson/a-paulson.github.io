@@ -137,6 +137,14 @@
   margin-right: 10px;
 }
 
+.link-text .fa-angellist{
+  margin-right: 13px;
+}
+
+.link-text .fa-envelope{
+  margin-right: 8px;
+}
+
 .link-text a:hover{
   color: rgb(68,138,255);
 }
